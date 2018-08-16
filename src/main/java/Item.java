@@ -1,13 +1,17 @@
 package main.java;
 
 public class Item {
+    private int cost;
 
-    public int getCost(int quantity) {
-        if(quantity > 10) {
-            return 400 + quantity * 20;
-        }
-        else {
-            return quantity * 40;
-        }
+    public Item(int cost) {
+        this.cost = cost;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
     }
 }
