@@ -1,4 +1,4 @@
-package main.java;
+package myproject;
 
 public class Item {
     private int cost;
